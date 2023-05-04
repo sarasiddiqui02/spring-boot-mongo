@@ -24,7 +24,7 @@ jobs:
     needs: [continuous-integration]
     if: github.ref == 'refs/heads/main'
     steps:
-     # Step 1
+     # Step 1 change
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
